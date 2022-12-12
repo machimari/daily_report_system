@@ -42,7 +42,17 @@ public class ReportView {
      * 日報の内容
      */
     private String content;
-
+    
+    /**
+     * 出勤時間
+     */
+    private String start_time;
+    
+    /**
+     * 退勤時間
+     */
+    private String end_time;
+ 
     /**
      * 登録日時
      */

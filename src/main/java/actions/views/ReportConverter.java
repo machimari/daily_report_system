@@ -23,6 +23,8 @@ public class ReportConverter {
                 rv.getReportDate(),
                 rv.getTitle(),
                 rv.getContent(),
+                rv.getStart_time(), //出勤時間
+                rv.getEnd_time(), //退勤時間
                 rv.getCreatedAt(),
                 rv.getUpdatedAt());
     }
@@ -44,6 +46,8 @@ public class ReportConverter {
                 r.getReportDate(),
                 r.getTitle(),
                 r.getContent(),
+                r.getStart_time(),  //出勤時間
+                r.getEnd_time(),  //退勤時間
                 r.getCreatedAt(),
                 r.getUpdatedAt());
     }
@@ -74,6 +78,8 @@ public class ReportConverter {
         r.setReportDate(rv.getReportDate());
         r.setTitle(rv.getTitle());
         r.setContent(rv.getContent());
+        r.setStart_time(rv.getStart_time());   //出勤時間
+        r.setEnd_time(rv.getEnd_time());   //退勤時間
         r.setCreatedAt(rv.getCreatedAt());
         r.setUpdatedAt(rv.getUpdatedAt());
 
